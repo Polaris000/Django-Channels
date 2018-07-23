@@ -5,8 +5,8 @@ from django.db import models
 class Room(models.Model):
     """
     A room for people to chat in.
-    """
 
+    """
     # Room title
     title = models.CharField(max_length=255)
 

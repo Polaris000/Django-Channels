@@ -40,7 +40,7 @@ class ChatConsumer(WebsocketConsumer):
                                                                #be invoked on consumers that receive the event.
         )
     
-        print("sd")
+        print("message sent")
 
         #self.send(text_data=json.dumps({'message': message }))     # self.send() sends msg only to one channel 
     
